@@ -13,6 +13,11 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'email_spec'
+  gem 'database_cleaner'
+  gem 'cucumber-rails', :require => false
+  gem 'launchy'
+  gem 'factory_girl_rails', ">= 4.2.0"
 end
 
 # Use SCSS for stylesheets
